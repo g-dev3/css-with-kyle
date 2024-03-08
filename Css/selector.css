@@ -1,0 +1,26 @@
+selecter{
+    property: value;
+}
+
+/* element */
+
+h1{
+    background: #000;
+}
+
+/* class */
+
+.class-name{
+    background: #000; 
+}
+
+
+/*  id selector */
+div .class{
+    background: #000;
+}
+
+#id1{
+    background: #000; !important
+}
+
