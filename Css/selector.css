@@ -1,5 +1,6 @@
 selecter{
-    property: value;
+    /* property: value; */
+    background: fixed;
 }
 
 /* element */
@@ -21,6 +22,6 @@ div .class{
 }
 
 #id1{
-    background: #000; !important
+    background: #000;
 }
 
