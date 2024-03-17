@@ -1,0 +1,29 @@
+h2#heading {
+    color: aqua;
+    /* 0, 1, 0, 1 */
+}
+
+.header {
+    color: magenta;
+    /* 0, 0, 1, 0 */
+}
+
+h2 {
+    color: green;
+    /* 0, 0, 0, 1 */
+}
+
+h2 {
+    color: blue;
+    /* 0, 0, 0, 2 */
+}
+
+h2 {
+    color: dodgerblue !important; 
+    /* 1, 0, 0, 1 */
+}
+
+#heading {
+    color: mediumslateblue;
+    /* 0, 1, 0, 0 */
+}
