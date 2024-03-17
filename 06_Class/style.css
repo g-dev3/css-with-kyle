@@ -1,0 +1,19 @@
+.para-1 {
+    background-color: blue;
+    color: aqua;
+}
+
+.para-2 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.para-3 {
+    background: hsl(360, 100%, 50%);
+    color: hsl(120, 100%, 50%);
+}
+
+.para-4 {
+    background-color: hsla(360, 100%, 50%, .7);
+    color: rgba(0, 28, 76, .3);
+}
