@@ -1,0 +1,11 @@
+.submit:hover {
+    background-color: red;
+}
+
+.submit:focus {
+    background-color: blue;
+}
+
+.email:disabled {
+    background-color: green;
+}
