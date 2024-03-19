@@ -1,4 +1,4 @@
-.submit:hover {
+/* .submit:hover {
     background-color: red;
 }
 
@@ -8,4 +8,36 @@
 
 .email:disabled {
     background-color: green;
+}
+
+.name {
+    background-color: blue;
+} */
+
+span:first-child {
+    color: red;
+}
+
+span:last-child {
+    color: blue;
+}
+
+span:first-of-type {
+    color: red;
+}
+
+span:last-of-type {
+    color: red;
+}
+
+span:nth-child(2) {
+    color: dodgerblue;
+}
+
+span:nth-child(odd) {
+    color: midnightblue;
+}
+
+span:nth-child(2n + 1) {
+    color: indianred;
 }
