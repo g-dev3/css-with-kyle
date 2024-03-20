@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.div-1 {
+    background-color: hsl(80, 100%, 50%);
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    border-width: 1px 2px 1px 2px;
+}
+
+.div-2 {
+    background-color: hsl(200, 80%, 50%);
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
