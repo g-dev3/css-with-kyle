@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+.skills-section,
+.footer {
+    background: #069;
+    color: white;
+}
+
+.title {
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.about-me {
+    line-height: 1.5rem;
+    word-spacing: 4px;
+    padding: 1rem;
+}
+
+.skills-about {
+    font-size: 1.2rem;
+    list-style: none;
+    line-height: 1.8rem;
+    font-style: italic;
+    padding-top: 1.2rem;
+}
+
+.Projects-about {
+    list-style: none;
+}
+
+.Projects {
+    margin: 2rem 0;
+}
+
+.skills-section {
+    padding: 1.75rem;
+}
+
+.project-detail {
+    color: #777;
+}
+
+.image {
+    margin: .65rem 0;
+}
+
+.input {
+    background: none;
+    padding: .55rem;
+    border: 1px solid #777;
+    border-radius: .25em;
+    outline: none;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.input:focus {
+    border-color: hsl(200, 100%, 20%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 20%);
+}
+
+form {
+    padding: 2rem;
+}
+
+.btn {
+    background-color: hsl(200, 100%, 30%);
+    border: 1px solid hsl(200, 100%, 10%);
+    color: white;
+    outline: none;
+    font-size: .75rem;
+    padding: .4rem .8rem;
+    border-radius: .18em;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: hsl(200, 100%, 20%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 10%);
+}
+
+.footer {
+    text-align: center;
+    padding: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.textarea-no-resize {
+    resize: none;
+}
+
+.section {
+    padding: 2em;
+}
