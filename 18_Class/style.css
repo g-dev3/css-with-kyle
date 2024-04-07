@@ -1,0 +1,106 @@
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #777;
+
+}
+
+.main {
+    height: 80vh;
+    width: 900px;
+    max-width: 80%;
+    /* margin: 1.2rem; */
+    background: white;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 1.5rem; */
+    padding: 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #777;
+
+}
+
+.header-title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.nav-btn {
+    border: none;
+    background: white;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-self: flex-start;
+    padding-top: .5rem;
+}
+
+.paragraph {
+    /* margin: 1.2rem; */
+    /* line-height: 1.3rem; */
+    flex-grow: 1;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    border: 1px solid #777;
+}
+
+.footer .btn {
+    margin-right: .5rem;
+}
+
+.footer .btn:last-child {
+    margin-right: initial;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    font-size: inherit;
+    border-radius: .3em;
+    border: none;
+    /* margin: .4rem; */
+    color: white;
+    cursor: pointer;
+}
+
+.btn.enter-btn {
+    background: #1CA;
+    /* margin-right: .2rem; */
+
+}
+
+.btn.enter-btn:hover,
+.btn.enter-btn:focus {
+    background: #0A8;
+}
+
+.btn.cancel-btn {
+    background: #C33;
+    /* color: white; */
+}
+
+.btn.cancel-btn:hover,
+.btn.cancel-btn:focus {
+    background: #A11;
+}
