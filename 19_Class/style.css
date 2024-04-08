@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.Nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #444;
+    height: 15vh;
+    color: white;
+    font-size: 1.5rem;
+    padding: .6rem 0;
+
+}
+
+ul.nav {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 3rem;
+}
+
+.nav li:hover,
+.nav li:focus {
+    background: whitesmoke;
+    color: black;
+
+}
