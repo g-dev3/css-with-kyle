@@ -1,0 +1,11 @@
+.parent {
+    column-width: 200px;
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-gap: 20px;
+    column-fill: auto;
+}
+
+h2 {
+    column-span: all;
+}
