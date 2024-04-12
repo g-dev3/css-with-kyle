@@ -1,0 +1,35 @@
+body {
+    height: 200vh;
+}
+
+.parent {
+    background: lightskyblue;
+    padding: .25rem;
+    position: relative;
+    z-index: -2;
+}
+
+/* in the parent content if z index is less and child z index is high
+but still its comes after if 2nd parent hava high z index and less z index in child */
+.parent2 {
+    z-index: -10;
+    top: 20px;
+}
+
+.child1 {
+    position: sticky;
+    z-index: -1;
+    top: 0;
+    background: lightcoral;
+    padding: .25rem;
+}
+
+.child2 {
+    background: lightgreen;
+    padding: .25rem;
+}
+
+.child3 {
+    background: peru;
+    padding: .25rem;
+}
