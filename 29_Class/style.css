@@ -1,0 +1,10 @@
+.parent {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    overflow: auto;
+}
