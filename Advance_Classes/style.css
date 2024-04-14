@@ -1,0 +1,16 @@
+:root {
+    --logo-color: green;
+    --nav: 0;
+}
+
+h2 {
+    background-color: var(--logo-color);
+    color: white;
+    padding: .5rem;
+    margin: var(--nav);
+}
+
+p {
+    color: var(--logo-color);
+    margin: var(--nav);
+}
