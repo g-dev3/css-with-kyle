@@ -1,0 +1,34 @@
+/* div > span{
+    background: red;
+}
+span{
+    background-color: green;
+} */
+
+/* h2 ~ p{
+    background: red;
+} */
+
+/* div ~ p{
+    background: red;
+} */
+
+/* div + p{
+    background: red;
+} */
+
+/* p:not(.green){
+    background: blue;
+} */
+
+p:not(.green):not(.red) {
+    background: blue;
+}
+
+input[type="text"] {
+    background: peru;
+}
+
+input[data-method="dhfoa"] {
+    color: red;
+}
