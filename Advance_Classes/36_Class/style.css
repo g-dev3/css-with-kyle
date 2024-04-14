@@ -1,0 +1,31 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+/* p::first-letter{
+    font-size: 200%;
+}
+
+p::first-line{
+    background: green;
+} */
+
+.box::before {
+    display: block;
+    content: " ";
+    height: 25px;
+    width: 25px;
+    background: green;
+}
+
+.box::after {
+    /* content: "Bye"; */
+    content: '';
+    display: block;
+    height: 25px;
+    width: 25px;
+    background: blue;
+
+}
