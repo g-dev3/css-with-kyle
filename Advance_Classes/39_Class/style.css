@@ -1,0 +1,15 @@
+.div1 {
+    width: 50px;
+    height: 50px;
+    background: red;
+    opacity: .6;
+}
+
+.div2 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    opacity: .6;
+    margin-top: -20px;
+    margin-left: -5px;
+}
