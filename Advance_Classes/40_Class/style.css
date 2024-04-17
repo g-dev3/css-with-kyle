@@ -1,0 +1,27 @@
+.div {
+    font-weight: bold;
+    color: green;
+    background: yellow;
+    font-size: 400%;
+}
+
+@media (max-width:1200px) {
+    .div {
+        background: red;
+        color: white;
+    }
+}
+
+@media (max-width:768px) {
+    .div {
+        color: white;
+        background: magenta;
+    }
+}
+
+@media(in-width:400px) and (max-width:486px) {
+    .div {
+        color: white;
+        background: blue;
+    }
+}
