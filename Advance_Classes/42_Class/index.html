@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp landing page pricing section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="full-screen-header">
+        <nav class="nav nav-top">
+            <img class="logo" src="img/wds_logo.png" alt="Web Dev Simplefied logo">
+            <ul class="nav-list">
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#" class="btn">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="title">WDS Bootcamp</h1>
+        <span class="sub-title">No Stack to full Stack</span>
+        <a href="#" class="btn">Learn more</a>
+        <img class="scroll-down-icon" src="img/arrow_down.svg" alt="arrow dowm">
+    </header>
+    <main>
+        <section class="section">
+            <h2 class="section-title">Curriculum</h2>
+            <div class="curriculum-grid">
+                <div class="curriculum-grid-item">
+                    <img src="img/html_icon.svg" alt="html 5 icon">
+                    <p>Start with the basics by learning HTML/CSS to build your first website</p>
+                </div>
+                <div class="curriculum-grid-item">
+                    <img src="img/node_js_icon.svg" alt="node js icon">
+                    <p>Build interactive web applications with the world's most popular backend</p>
+                </div>
+                <div class="curriculum-grid-item">
+                    <img src="img/vscode_icon.svg" alt="vs code icon">
+                    <p>Use the latest technology for editing and creating amazing web applications</p>
+                </div>
+                <div class="curriculum-grid-item">
+                    <img src="img/database_icon.svg" alt="database icon">
+                    <p>Manage application data by learning SWL and NoSQL. database architecture</p>
+                </div>
+                <div class="curriculum-grid-item">
+                    <img src="img/edit_page_icon.svg" alt="design logo">
+                    <p>Create stunning designs by using modern desing tools like Figman and Sketch</p>
+                </div>
+                <div class="curriculum-grid-item">
+                    <img src="img/react_icon.svg" alt="react icon">
+                    <p>Use the moset popular frontend framework to create modern PWAs</p>
+                </div>
+            </div>
+        </section>
+        <section class="section section-accent">
+            <div class="pricing-cards-container">
+                <div class="pricing-card">
+                    <div class="price-header">
+                        <div class="plan-name">Basic</div>
+                        <div class="plan-price">$10</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="features">4 Videos Per Month</div>
+                        <div class="features">1 Project Based Video Per Month</div>
+                        <div class="features inactive">Weakly Live Streams</div>
+                        <div class="features inactive">24/7 Email Support</div>
+                        <div class="features inactive">24/7 Phone Support</div>
+                        <div class="features inactive">1 Project Code Review Per Month</div>
+                    </div>
+                </div>
+                <div class="pricing-card accent">
+                    <div class="price-header">
+                        <div class="plan-name">Preferred</div>
+                        <div class="plan-price">$25</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="features">6 Videos Per Month</div>
+                        <div class="features">2 Project Based Videos Per Month</div>
+                        <div class="features">Weakly Live Streams</div>
+                        <div class="features">24/7 Email Support</div>
+                        <div class="features inactive">24/7 Phone Support</div>
+                        <div class="features inactive">1 Project Code Review Per Month</div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="price-header">
+                        <div class="plan-name">Pro</div>
+                        <div class="plan-price">$50</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="features">8 Videos Per Month</div>
+                        <div class="features">4 Project Based Videos Per Month</div>
+                        <div class="features">Weakly Live Streams</div>
+                        <div class="features">24/7 Email Support</div>
+                        <div class="features">24/7 Phone Support</div>
+                        <div class="features">1 Project Code Review Per Month</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Contact</h2>
+            <form class="form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+                <div class="btn-container">
+                    <button class="btn btn-square" type="submit">Send</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
