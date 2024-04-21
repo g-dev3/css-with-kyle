@@ -1,0 +1,22 @@
+.div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.div:hover {
+    animation: color-change 1s linear .5s backwards;
+
+}
+
+@keyframes color-change {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: green;
+        color: black;
+    }
+}
